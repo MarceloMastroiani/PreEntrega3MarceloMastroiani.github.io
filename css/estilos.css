@@ -1,0 +1,180 @@
+/* RESETEO */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* TIPOGRAFIA WED */
+/* font-family: 'Allan', cursive;
+font-family: 'Roboto', sans-serif; */
+body{
+    font-family: 'Allan', cursive;
+}
+
+
+
+/* ENCABEZADO */
+header{
+    background-color: greenyellow; 
+    height: 18rem;
+}
+
+
+/* LOGO */
+h1{
+    font-size: 1rem;
+    color: black;
+}
+
+
+/* MENU */
+ul li{
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+/* MENU A LA DERECHA */
+.menuDer{
+    text-align: right;
+}
+
+
+/* ENLACES */
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+
+
+/* FOTOS DEL INCIO */
+.img{
+    display: inline;
+    width: 49rem ;
+    height: 70rem ;
+}
+
+/* FOTOS DEL PRODUCTO */
+.img2M{ /* Mujeres */
+    width: 50rem;
+    height: 70rem;
+    margin: 50px 100px;
+}
+.img3H{ /* Hombres */
+    width: 50rem;
+    height: 70rem;
+    margin: 50px 100px;
+}
+.img4C{  /* Coleccion */
+    width: 50rem;
+    height: 70rem;
+    margin: 50px 100px;
+}
+
+
+
+
+/* H2 */
+h2{
+    font-size: 5rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 10rem;
+}
+
+
+
+/* PIE DE CABEZA*/
+footer{
+    background-color:black;
+    height: 12rem;
+}
+
+/* REDES SOCIALES */
+.redes img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: block;
+    margin-top: 5px;
+}
+.redes{
+    position:fixed;
+    left: 0;
+    top: 50%;
+}
+.wsp img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.wsp{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+
+
+
+/* POLITICA DE CONTACTOS (contactanos.html) */
+#datosCont{
+    background-color: black;
+    width: 80rem;
+    height: 20rem;
+    overflow: auto;
+
+    margin: 50px 20%;
+    padding: 2rem;
+}
+p{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 4rem;
+    color: white;
+}
+
+
+
+/* FORMULARIO */
+form{
+    font-size: 2rem;
+    margin: 70px 30% ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nombre{
+    margin-bottom: 20px;
+}
+
+.mensajeCont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.boton{
+    margin-top: 20px;
+}
+
+
+/* RESPONSIVE */
+
+
