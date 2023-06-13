@@ -23,13 +23,11 @@ header{
     height: 18rem;
 }
 
-
 /* LOGO */
 h1{
     font-size: 1rem;
     color: black;
 }
-
 
 /* MENU */
 ul li{
@@ -41,11 +39,6 @@ ul li{
     padding: 0 1rem;
 }
 
-/* MENU A LA DERECHA */
-.menuDer{
-    text-align: right;
-}
-
 
 /* ENLACES */
 a{
@@ -55,12 +48,15 @@ a{
 }
 
 
-
 /* FOTOS DEL INCIO */
+main{
+    display: flex;
+    align-content: flex-end
+}
 .img{
     display: inline;
     width: 49rem ;
-    height: 70rem ;
+    height: 70rem;
 }
 
 /* FOTOS DEL PRODUCTO */
@@ -84,12 +80,10 @@ a{
 
 
 /* H2 */
-h2{
+.slogan{
     font-size: 5rem;
     color: white;
     background-color: black;
-    text-align: center;
-    height: 10rem;
 }
 
 
@@ -97,7 +91,7 @@ h2{
 /* PIE DE CABEZA*/
 footer{
     background-color:black;
-    height: 12rem;
+    height: 10rem;
 }
 
 /* REDES SOCIALES */
@@ -128,15 +122,12 @@ footer{
 
 
 /* POLITICA DE CONTACTOS (contactanos.html) */
-#datosCont{
+.datosCont{
     background-color: black;
-    width: 80rem;
-    height: 20rem;
+    height: 30rem;
     overflow: auto;
-
-    margin: 50px 20%;
-    padding: 2rem;
 }
+
 p{
     font-size: 2rem;
     color: white;
@@ -147,34 +138,10 @@ h3{
     color: white;
 }
 
-
-
-/* FORMULARIO */
 form{
-    font-size: 2rem;
-    margin: 70px 30% ;
-    font-family: 'Roboto', sans-serif;
-}
-
-.nombre{
-    margin-bottom: 20px;
-}
-
-.mensajeCont{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.checkbox{
-    margin-top: 20px;
-}
-
-.boton{
-    margin-top: 20px;
+    font-family:'Roboto', sans-serif ;
 }
 
 
-/* RESPONSIVE */
 
 

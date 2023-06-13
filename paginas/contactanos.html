@@ -10,6 +10,9 @@
 
     <title>CONTACTANOS - M.M</title>
 
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
     <link rel="stylesheet" href="../css/estilos.css">
 
 <!-- GOOGLE FONTS -->
@@ -19,102 +22,95 @@
 
 </head>
 
-<body>
+<body class="container-fluid">
 
-<header> <!--ENCABEZADO-->
-    <nav>  
-        <a href="../index.html">
-            <img src="../imagenes/LOGO.png" alt="m.m">
-        </a>
-            <ul class="menuDer">                
-                <!-- MENU PRINCIPAL  -->
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../paginas/hombres.html">HOMBRES</a></li>
-                <li><a href="../paginas/mujeres.html">MUJERES</a></li>
-                <li><a href="../paginas/colecciones.html">COLECCION</a></li>
-            </ul>
-    </nav>
-</header>
+    
+    <header class="row"> <!-- ENCABEZADO -->
+        <nav class="col-sm-12 col-md-12">  
+            <a href="../index.html">
+                <img src="../imagenes/LOGO.png" alt="m.m">
+            </a>
+                <ul class="text-end">                
+                    <!-- MENU PRINCIPAL -->
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../paginas/hombres.html">HOMBRES</a></li>
+                    <li><a href="../paginas/mujeres.html">MUJERES</a></li>
+                    <li><a href="../paginas/colecciones.html">COLECCION</a></li>
+                </ul>
+        </nav>
+    </header>
 
-<!-- DATOS SOBRE CONTACTOS -->
-<section>
-    <article id="datosCont">
+
+
+
+
+    <!-- DATOS SOBRE CONTACTOS -->
+    <div class="datosCont col-sm-12 col-md-12">
         <h3>Politica de contactos :</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui consequuntur suscipit vel dolorem officia a praesentium itaque officiis aut, quibusdam rem odio. Ad libero facilis ipsam vitae, dolore aperiam cumque. Ad commodi consequuntur ex illo, molestiae doloremque iste labore voluptatem quo reprehenderit odio, porro repudiandae ipsa quia tempora nostrum. Tenetur veritatis dolorum itaque culpa iure dicta rem laboriosam repudiandae quidem eveniet assumenda aspernatur officiis repellat sed temporibus, nam sint. Vero impedit commodi perferendis veritatis adipisci, harum similique eligendi fugit amet nostrum obcaecati accusamus deleniti, nemo itaque alias molestiae soluta. Unde hic optio veritatis possimus reiciendis odit dolorum cumque eius quos praesentium vel asperiores incidunt similique, necessitatibus dolore officia ab suscipit, totam non placeat. Natus laborum error molestiae nostrum praesentium. Eveniet reprehenderit voluptatem nihil voluptas a laboriosam molestiae amet suscipit impedit natus, commodi illum possimus itaque accusantium, dolorem illo saepe fugiat excepturi eum necessitatibus facere veritatis. A animi alias cum eum accusantium ut corrupti fuga magnam! Enim itaque tempore molestiae molestias aliquid ducimus id asperiores autem, labore temporibus! Iusto quae quaerat rem sequi deserunt quod voluptatibus exercitationem quas esse laborum magni libero doloremque nostrum illo minima ipsa doloribus impedit soluta vitae aliquam, nulla dignissimos optio odio nam! Eius velit aliquid perspiciatis culpa quasi ab sint atque magni vel beatae optio ducimus cupiditate dicta nostrum, nobis autem laudantium quia officia non! Obcaecati reprehenderit commodi sint ex error consectetur nesciunt repudiandae est voluptas repellat impedit quaerat aperiam harum placeat quod dicta dolorem provident, ratione porro eos aliquam accusantium. Optio molestiae enim nisi tempore eligendi quasi. Iste quam odit, nesciunt, ratione quas voluptatibus a praesentium, hic debitis pariatur error. Placeat dolor vero cupiditate, voluptates dolorum odit odio, recusandae ut aliquam, fuga sapiente eum! Neque id doloribus minus consequatur numquam, vero ipsam dolorum quae alias. Dolores saepe veniam aliquam quaerat ut voluptate odio vero ipsum!</p>
-    </article>
-</section>
-
-
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui consequuntur suscipit vel dolorem officia a praesentium itaque officiis aut, quibusdam rem odio. Ad libero facilis ipsam vitae, dolore aperiam cumque. Ad commodi consequuntur ex illo, molestiae doloremque iste labore voluptatem quo reprehenderit odio, porro repudiandae ipsa quia tempora nostrum. Tenetur veritatis dolorum itaque culpa iure dicta rem laboriosam repudiandae quidem eveniet assumenda aspernatur officiis repellat sed temporibus, nam sint. Vero impedit commodi perferendis veritatis adipisci, harum similique eligendi fugit amet nostrum obcaecati accusamus deleniti, nemo itaque alias molestiae soluta. Unde hic optio veritatis possimus reiciendis odit dolorum cumque eius quos praesentium vel asperiores incidunt similique, necessitatibus dolore officia ab suscipit, totam non placeat. Natus laborum error molestiae nostrum praesentium. Eveniet reprehenderit voluptatem nihil voluptas a </p>
+    </div>
 
 <!-- FORMULARIO -->
-<form action=""> 
+    <div class="row justify-content-center" >
 
-<div class="nombre">
-    <label for="Nombr">Nombre y Apellido</label>
-    <input type="text" name="Nombre" id="Nombre"> 
+        <form class="w-50 fs-1">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Ingrese su correo electronico.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Acepto todo</label>
+
+                <div>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Newsletters</label>
+                </div>
+            </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+                <button type="reset" class="btn btn-primary">Resetear el formulario</button>
+        </form>
+
+    </div>
+
+
+    <!-- PIE DE ENCABEZADO-->                                    
+    <footer class="row">
+        
+        <div class="redes col-1">
+            <a href="https://www.instagram.com" target="_blank" >
+                <img src="../imagenes/instagram (1).png" alt="instagram">
+            </a>
+        
+            <a href="https://twitter.com/home?lang=es" target="_blank">
+                <img src="../imagenes/gorjeo.png" alt="twitter" >
+            </a>
+        </div>
+        
+        <div class="wsp col-1">
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+                <img src="../imagenes/whatsapp.png" alt="whatsapp">
+            </a>
+
 </div>
 
 
-    <label for="Email">Correo electronico</label>
-    <input type="email" name="Email" id="Email">
-
-
-    <div class="mensajeCont">
-        <label for="Mensaje">Tu mensaje :</label>
-        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
-    </div>
-
-
-    <!-- RADIO (solo una opcion)-->
-    <label for="genero">Genero :</label>
-
-    <input type="radio" name="genero" id="genero"value="M">Masulino
-
-    <input type="radio" name="genero" id="genero"value="F">Femenino
-
-    <input type="radio" name="genero" id="genero"value="PE">Prefiero no especificar
-
-
-
-<div class="checkbox"> <!-- CHECBOX (una, varias,todas o ninguna opcion) -->
-    <label for="terminos">Acepta los terminos?</label>
-    <input type="checkbox" name="terminos" id="terminos">
-
-    <label for="newsletter">Newsletter?</label>
-    <input type="checkbox" name="newsletter" id="newsletter">
-</div>
-
-<!-- BOTONES -->
-<input type="reset" value="Resetear el formulario" class="boton">
-<input type="submit" value="Enviar el formulario" class="boton">
-
-</form>
-
-
-
-<hr>
-
-
-<!-- PIE DE ENCABEZADO-->                                    
-<footer>
-    
-    <div class="redes">
-        <a href="https://www.instagram.com" target="_blank" >
-            <img src="../imagenes/instagram (1).png" alt="instagram">
-        </a>
-    
-        <a href="https://twitter.com/home?lang=es" target="_blank">
-            <img src="../imagenes/gorjeo.png" alt="twitter" >
-        </a>
-    </div>
-    
-    <div class="wsp">
-        <a href="https://www.whatsapp.com/?lang=es" target="_blank">
-            <img src="../imagenes/whatsapp.png" alt="whatsapp">
-        </a>
-    </div>
     
 </footer>
 
+
+<!-- SCRIPT JS DE BOOTSTRAP -->
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

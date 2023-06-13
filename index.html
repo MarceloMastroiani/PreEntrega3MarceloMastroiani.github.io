@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-
+    
     <meta charset="UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,12 @@
     
     <title>M.M</title>
 
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilos.css">
+
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,52 +25,65 @@
 
 </head>
 
-<body>
-    <header>
-        <nav>
+<body class="container-fluid" >
+
+    <header class="row">
+        <nav class="col-12 ">
+
             <a href="index.html">
                 <img src="imagenes/LOGO.png" alt="m.m">
             </a>
-            <ul class="menuDer">                
-                <!-- MENU PRINCIPAL  -->
+
+            <ul class="text-end">                
+                    <!-- MENU PRINCIPAL   -->
                 <li><a href="paginas/hombres.html">HOMBRES</a></li>
                 <li><a href="paginas/mujeres.html">MUJERES</a></li>
                 <li><a href="paginas/colecciones.html">COLECCION</a></li>
                 <li><a href="paginas/contactanos.html">CONTACTANOS</a></li>
             </ul>
+
         </nav>
     </header>
 
 
 
 <!--SLOGAN DEL SHOWROOM -->
-<h2>El estilo es la ropa de tu personalidad.</h2>
+<div class="row">
+    <section class="col-12 bg-black">
+        <h2 class="text-center slogan">El estilo es la ropa de tu personalidad.</h2>
+    </section>
+</div>
 
 
 <!--PRODUCTO PRINCIPAL-->
-<main>
-    
+<main class="row">
+
+    <div class="col-sm-12 col-md-4">
         <a href="paginas/mujeres.html">
             <img src="imagenes/Mujeres.png" alt="mujeres" class="img">
         </a> 
+    </div>
 
+    <div class="col-sm-12 col-md-4 col-lg-4">
         <a href="paginas/hombres.html">
             <img src="imagenes/Hombres.png" alt="hombres" class="img" > 
         </a>
+    </div>
 
+    <div class="col-sm-12 col-md-4">
         <a href="paginas/colecciones.html">
             <img src="imagenes/Coleccion.png" alt="colecciones" class="img" > 
         </a>
-    
+    </div>
 </main>
 
 
 
 
 
-<footer>
+<footer class="row">
 
-<div class="redes">
+<div class="redes col-1">
     <a href="https://www.instagram.com" target="_blank" >
         <img src="imagenes/instagram (1).png" alt="instagram">
     </a>
@@ -76,13 +93,16 @@
     </a>
 </div>
 
-<div class="wsp">
+<div class="wsp col-1">
     <a href="https://www.whatsapp.com/?lang=es" target="_blank">
         <img src="imagenes/whatsapp.png" alt="whatsapp">
     </a>
 </div>
 
 </footer>
+
+<!-- SCRIPT JS DE BOOTSTRAP -->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 
