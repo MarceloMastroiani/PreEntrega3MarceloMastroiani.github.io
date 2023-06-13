@@ -16,13 +16,6 @@ body{
 }
 
 
-
-/* ENCABEZADO */
-header{
-    background-color: greenyellow; 
-    height: 18rem;
-}
-
 /* LOGO */
 h1{
     font-size: 1rem;
@@ -30,6 +23,7 @@ h1{
 }
 
 /* MENU */
+
 ul li{
     display: inline-block;
     color: black;
@@ -55,8 +49,8 @@ main{
 }
 .img{
     display: inline;
-    width: 49rem ;
-    height: 70rem;
+    width: 100% ;
+    
 }
 
 /* FOTOS DEL PRODUCTO */
@@ -92,6 +86,7 @@ main{
 footer{
     background-color:black;
     height: 10rem;
+
 }
 
 /* REDES SOCIALES */
@@ -106,6 +101,7 @@ footer{
     position:fixed;
     left: 0;
     top: 50%;
+    width: 10px;
 }
 .wsp img{
     width: 4rem;

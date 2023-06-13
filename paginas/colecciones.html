@@ -24,20 +24,33 @@
 
 <body>
 
-<header>
-    <nav>  
-        <a href="../index.html">
-            <img src="../imagenes/LOGO.png" alt="m.m">
-        </a>
-            <ul class="text-end">                
-                <!-- MENU PRINCIPAL  -->
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../paginas/hombres.html">HOMBRES</a></li>
-                <li><a href="../paginas/mujeres.html">MUJERES</a></li>
-                <li><a href="../paginas/contactanos.html">CONTACTANOS</a></li>
-            </ul>
-    </nav>
-</header>
+    <header class="row">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../imagenes/LOGO.png" alt="m.m">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul>
+                    <li class="nav-item display-6">
+                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item display-6">
+                        <a class="nav-link" href="../paginas/hombres.html">HOMBRES</a>
+                    </li>
+                    <li class="nav-item display-6">
+                        <a class="nav-link" href="../paginas/mujeres.html">MUJERES</a>
+                    </li>
+                    <li class="nav-item display-6">
+                        <a class="nav-link" href="../paginas/contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
 <h2 class="text-center slogan">Coleccion de invierno:</h2>
@@ -64,9 +77,9 @@
 </main>
 
 
-<footer>
-    
-    <div class="redes">
+<footer class="row">
+
+    <div class="redes col-1">
         <a href="https://www.instagram.com" target="_blank" >
             <img src="../imagenes/instagram (1).png" alt="instagram">
         </a>
@@ -74,9 +87,7 @@
         <a href="https://twitter.com/home?lang=es" target="_blank">
             <img src="../imagenes/gorjeo.png" alt="twitter" >
         </a>
-    </div>
     
-    <div class="wsp">
         <a href="https://www.whatsapp.com/?lang=es" target="_blank">
             <img src="../imagenes/whatsapp.png" alt="whatsapp">
         </a>

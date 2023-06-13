@@ -27,15 +27,14 @@
 
 <body class="container-fluid" >
 
-    <header class="row">
-        <nav class="col-12 ">
-
+    <!-- <header class="row">
+        <nav class="col-12">
             <a href="index.html">
                 <img src="imagenes/LOGO.png" alt="m.m">
             </a>
 
-            <ul class="text-end">                
-                    <!-- MENU PRINCIPAL   -->
+            <ul class="text-md-end text-sm-center">                
+                    MENU PRINCIPAL 
                 <li><a href="paginas/hombres.html">HOMBRES</a></li>
                 <li><a href="paginas/mujeres.html">MUJERES</a></li>
                 <li><a href="paginas/colecciones.html">COLECCION</a></li>
@@ -43,8 +42,34 @@
             </ul>
 
         </nav>
-    </header>
+    </header> -->
+    <header class="row">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/LOGO.png" alt="m.m">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul>
+                    <li class="nav-item display-6">
+                        <a class="nav-link active" aria-current="page" href="paginas/hombres.html">HOMBRES</a>
+                    </li>
+                    <li class="nav-item display-6">
+                        <a class="nav-link" href="paginas/mujeres.html">MUJERES</a>
+                    </li>
+                    <li class="nav-item display-6">
+                        <a class="nav-link" href="paginas/colecciones.html">COLECCION</a>
+                    </li>
+                    <li class="nav-item display-6">
+                        <a class="nav-link" href="paginas/contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
 <!--SLOGAN DEL SHOWROOM -->
@@ -57,14 +82,13 @@
 
 <!--PRODUCTO PRINCIPAL-->
 <main class="row">
-
     <div class="col-sm-12 col-md-4">
         <a href="paginas/mujeres.html">
             <img src="imagenes/Mujeres.png" alt="mujeres" class="img">
         </a> 
     </div>
 
-    <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="col-sm-12 col-md-4">
         <a href="paginas/hombres.html">
             <img src="imagenes/Hombres.png" alt="hombres" class="img" > 
         </a>
@@ -75,9 +99,9 @@
             <img src="imagenes/Coleccion.png" alt="colecciones" class="img" > 
         </a>
     </div>
+
+
 </main>
-
-
 
 
 
@@ -91,9 +115,7 @@
     <a href="https://twitter.com/home?lang=es" target="_blank">
         <img src="imagenes/gorjeo.png" alt="twitter" >
     </a>
-</div>
 
-<div class="wsp col-1">
     <a href="https://www.whatsapp.com/?lang=es" target="_blank">
         <img src="imagenes/whatsapp.png" alt="whatsapp">
     </a>
