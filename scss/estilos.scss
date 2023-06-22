@@ -1,0 +1,142 @@
+/* RESETEO */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* TIPOGRAFIA WED */
+/* font-family: 'Allan', cursive;
+font-family: 'Roboto', sans-serif; */
+body{
+    font-family: 'Allan', cursive;
+}
+
+
+/* LOGO */
+h1{
+    font-size: 1rem;
+    color: black;
+}
+
+/* MENU */
+li{
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+/* ENLACES */
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+
+/* FOTOS DEL INCIO */
+main{
+    display: flex;
+    align-content: flex-end
+}
+
+.img{
+    display: inline;
+    width: 100% ;
+    
+}
+
+/* FOTOS DEL PRODUCTO */
+.img2M{ /* Mujeres */
+    width: 50rem;
+    height: 70rem;
+    margin: 50px 100px;
+}
+.img3H{ /* Hombres */
+    width: 50rem;
+    height: 70rem;
+    margin: 50px 100px;
+}
+.img4C{  /* Coleccion */
+    width: 50rem;
+    height: 70rem;
+    margin: 50px 100px;
+}
+
+
+
+
+/* H2 */
+.slogan{
+    font-size: 5rem;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* PIE DE CABEZA*/
+footer{
+    background-color:black;
+    height: 10rem;
+
+}
+
+/* REDES SOCIALES */
+.redes{
+    position:fixed;
+    left: 0;
+    top: 50%;
+    width: 10px;
+
+    img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
+.wsp{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+
+    img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+/* POLITICA DE CONTACTOS (contactanos.html) */
+.datosCont{
+    background-color: black;
+    height: auto;
+    overflow: auto;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 4rem;
+    color: white;
+}
+
+form{
+    font-family:'Roboto', sans-serif ;
+    padding: 20px;
+}
