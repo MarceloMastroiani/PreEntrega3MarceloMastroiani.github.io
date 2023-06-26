@@ -51,21 +51,24 @@ main {
 
 /* FOTOS DEL PRODUCTO */
 .img2M { /* Mujeres */
-  width: 50rem;
-  height: 70rem;
-  margin: 50px 100px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .img3H { /* Hombres */
-  width: 50rem;
-  height: 70rem;
-  margin: 50px 100px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .img4C { /* Coleccion */
-  width: 50rem;
-  height: 70rem;
-  margin: 50px 100px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* H2 */
