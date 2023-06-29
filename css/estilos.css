@@ -34,12 +34,6 @@ body {
   font-family: "Allan", cursive;
 }
 
-/* LOGO */
-h1 {
-  font-size: 1rem;
-  color: black;
-}
-
 /* MENU */
 nav {
   background-color: greenyellow;
@@ -93,7 +87,7 @@ main {
   width: 100%;
 }
 
-/* H2 */
+/* H1 */
 .slogan {
   font-size: 5rem;
   color: white;
@@ -139,7 +133,7 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-h3 {
+h1 {
   font-size: 4rem;
   color: white;
 }
