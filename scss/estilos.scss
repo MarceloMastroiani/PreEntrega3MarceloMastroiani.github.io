@@ -1,3 +1,5 @@
+@import "variables";
+
 /* RESETEO */
 *{
     margin: 0;
@@ -23,14 +25,19 @@ h1{
 }
 
 /* MENU */
-li{
-    display: inline-block;
-    color: black;
-    font-weight: bolder;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+nav{
+    background-color: $colorMenu;
+    li{
+        display: inline-block;
+        color: black;
+        font-weight: bolder;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
 }
+
+
 
 /* ENLACES */
 a{
@@ -54,23 +61,20 @@ main{
 
 /* FOTOS DEL PRODUCTO */
 .img2M{ /* Mujeres */
-    width: 100%;
-    height: auto;
     margin-bottom: 20px;
     margin-top: 20px;  
+    @include ancho-largo(auto, 100% )
 }
 .img3H{ /* Hombres */
-    width: 100%;
-    height: auto;
     margin-bottom: 20px;
     margin-top: 20px;  
+    @include ancho-largo(auto, 100% )
 }
 
 .img4C{  /* Coleccion */
-    width: 100%;
-    height: auto;
     margin-bottom: 20px;
     margin-top: 20px;  
+    @include ancho-largo(auto, 100% )
 }
 
 
@@ -101,28 +105,12 @@ footer{
     width: 10px;
 
     img{
-        width: 4rem;
-        height: 4rem;
         border-radius: 50%;
         display: block;
         margin-top: 5px;
+        @include ancho-largo(4rem, 4rem )
     }
 }
-
-.wsp{
-    position: fixed;
-    bottom: 5rem;
-    right: 5rem;
-
-    img{
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
-    }
-}
-
-
-
 
 /* POLITICA DE CONTACTOS (contactanos.html) */
 .datosCont{
@@ -145,3 +133,29 @@ form{
     font-family:'Roboto', sans-serif ;
     padding: 20px;
 }
+
+/* EXTEND */
+
+.boton{
+    width: auto;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.boton--enviar{
+    @extend .boton;
+    background-color: greenyellow;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.boton--resetear{
+    @extend .boton;
+    color: greenyellow;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+

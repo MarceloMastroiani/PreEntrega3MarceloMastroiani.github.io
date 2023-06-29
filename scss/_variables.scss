@@ -1,0 +1,8 @@
+// VARIABLES
+$colorMenu: greenyellow;
+
+/* MIXIN */
+@mixin ancho-largo ($height, $width){
+    height: $height;
+    width: $width;
+}
