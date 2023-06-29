@@ -103,6 +103,11 @@ footer{
     left: 0;
     top: 50%;
     width: 10px;
+    animation-name: redeS;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 3s;
 
     img{
         border-radius: 50%;
